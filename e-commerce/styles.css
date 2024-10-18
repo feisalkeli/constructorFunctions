@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #444;
+  text-align: center;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Inventory and Cart Styles */
+.inventory,
+.cart {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.inventory div,
+.cart div {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #e9ecef;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.inventory div button,
+.cart div button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.inventory div button:hover,
+.cart div button:hover {
+  background-color: #0056b3;
+}
+
+/* Total Price Section */
+.total {
+  margin-top: 20px;
+  font-size: 1.2em;
+  text-align: center;
+  background-color: #fff3cd;
+  padding: 10px;
+  border: 1px solid #ffeeba;
+  border-radius: 5px;
+}
